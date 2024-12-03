@@ -1,0 +1,76 @@
+
+.HomePage {
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+
+.Header {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.descriptionDiv {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.descriptionTitle{
+    margin-right: 10px;
+}
+
+.Content {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.testImages, .outputImages, .modelButtons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.baklavaImage, .redVelvetImage, .breakfastBurritoImage, .outputImage {
+    width: 400px;
+    height: 400px;
+    margin: 5px;
+}
+
+.model-button {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    margin: 20px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.model-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.model-button:active {
+    transform: translateY(0px);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.model-button.active {
+    background: linear-gradient(135deg, #f093fb, #f5576c);
+    color: #fff;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3);
+}
